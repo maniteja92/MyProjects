@@ -65,7 +65,7 @@ function filterItems(event) {
     if (searchItem.indexOf(text) === -1) {
       items.style.display = 'none';
     } else {
-      items.style.display = 'block';
+      items.style.display = 'flex';
     }
   })
 }
