@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  .leftPanel {
+    width: 27%;
+    background-color: #d7c9c9;
+    padding: 0.7cm;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+  }
+  .rightPanel {
+    width: 73%;
+    padding: 0.7cm;
+  }
+  img {
+    width: 4cm;
+    height: 4cm;
+    margin-bottom: 0.7cm;
+    border-radius: 10%;
+    border: 0.15cm solid white;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  .bottomLineSeparator {
+    border-bottom: 0.05cm solid white;
+  }
+  
+  .highereducation{
+    margin-left: 40px;
+  }
+  .seceducation{
+    margin-left: 40px;
+  }
+  .educationinfo{
+    flex-direction: row;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .btech{
+    margin-left:20px;
+  }
+  .summary{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; 
+  }
+  .skills{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .skills:hover{
+    transform: scale(1.01);
+  }
+  .summary:hover{
+    transform: scale(1.01);
+  }
+  .educationinfo:hover{
+    transform: scale(1.01);
+  }
