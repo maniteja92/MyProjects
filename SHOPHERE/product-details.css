@@ -1,0 +1,94 @@
+/* product-details.css */
+
+/* Center the container */
+.Details-Container {
+    max-width: 500px;
+    max-height:fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+/* Style the title */
+.Title-Detail {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the image */
+.Image-Detail {
+    max-width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+/* Style the description */
+.Description-Detail {
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+/* Style the price */
+.Price-Detail {
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Style the rating */
+.Rating-Detail {
+    font-size: 18px;
+    color: goldenrod;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Style the buttons */
+.Add {
+    padding: 10px 150px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffff00;
+    color: #000000;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    margin-left: 550px;
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.Add:hover {
+    background-color: #d9dd06;
+}
+
+.Buy {
+    padding: 10px 165px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffff00;
+    color: #000000;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    margin-left: 553px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.Buy:hover {
+    background-color: #d9dd06;
+}

@@ -1,0 +1,128 @@
+body {
+    font-family:"Poppins", sans-serif;
+    background-color:#f0f0f0;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+    /* background-color: #6da3fb; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url("shopping-bag-cart.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#f0f0f0
+    
+}
+
+.input-field{
+    display:flex;
+    margin-bottom:40px;
+    margin-left:35%;
+}
+
+/* input [type="text"]{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+} */
+
+.input{
+    margin:10px 10px;
+    display:flex;
+    border-radius:4px;
+    padding:10px 20px;
+    border: none;
+    width:250px;
+    outline: none;
+    /* height:10px; */
+}
+
+button{
+    margin-left:5px;
+    padding:1px 10px;
+    font-size:30px;
+    background-color: transparent;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+
+
+.btn-icon:active .fa-magnifying-glass {
+    transform: scale(1.1);
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+/* Adjust the size of the product card and reduce whitespace */
+.Every-Product {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    width: calc(20% - 20px); 
+    max-width: 200px; 
+}
+
+.Every-Product:hover {
+    transform: translateY(-2px);
+}
+
+.Every-Product img {
+    width: 60%; /* Display the image at 100% width */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* .Every-Product p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 10px;
+} */
+
+
+.Every-Product p {
+    display: none;
+}
+
+
+
+.Every-Product p2 {
+    display: block;
+    text-align: justify;
+    font-size: medium; 
+}
+
+
+.cart{
+    margin-top: 10px;
+    margin-left: 3px;
+}

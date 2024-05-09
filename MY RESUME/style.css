@@ -1,0 +1,106 @@
+:root {
+    --white: #ffffff;
+    --orange: #ffb300;
+    --darker-blue: #283593;
+    --dark-blue: #616dbb;
+    --yellow: #fdd835;
+}
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height:1.6;
+    background-color: #090f5c6f;
+    
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    text-align: center; 
+}
+h1 {
+    color:  var(--white);
+}
+
+.section {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.section:hover {
+    background-color: #1a237e; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.01);
+}
+
+.section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+.info h3 {
+    margin-top: 0;
+}
+
+.info p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.objective p {
+    font-style: italic;
+    text-align: center;
+}
+
+.summary ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.summary ul li {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.projects ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.strengths ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.fa-graduation-cap{
+    color: #ffffff;
+}
+footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Align text to center */
+}
